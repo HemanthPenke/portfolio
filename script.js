@@ -12,7 +12,7 @@ function scrollToSection(link) {
   const targetSection = document.getElementById(targetId);
 
   // Calculate exact position with an offset to ensure proper alignment
-  const targetPosition = targetSection.offsetTop - navbarHeight - 500; // Add a slight extra offset (10px)
+  const targetPosition = targetSection.offsetTop - navbarHeight - 30; // Add a slight extra offset (10px)
 
   // Scroll to the section smoothly
   window.scrollTo({
@@ -30,7 +30,7 @@ function scrollToSection(link) {
 window.onscroll = () => {
   sections.forEach(sec => {
     let top = window.scrollY;
-    let offset = sec.offsetTop - navbarHeight - 100; // Match the scroll offset logic
+    let offset = sec.offsetTop - navbarHeight - 35; // Match the scroll offset logic
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
 
