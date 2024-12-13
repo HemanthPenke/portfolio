@@ -941,6 +941,19 @@ body{
 
     text-align: center;
 
+
+
+  }
+
+  .image-container{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
   }
     
 
