@@ -975,7 +975,12 @@ body{
   .p-con .text-content .name{
     font-size: 35px;
   }
-  .role,span{
+  .role{
+    font-size: 35px;
+    font-weight: 300;
+  }
+
+  .role>.span{
     font-size: 35px;
     font-weight: 300;
   }
