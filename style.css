@@ -996,3 +996,58 @@ body{
 
 
 }
+
+@keyframes appear {
+
+  from{
+    opacity: 0;
+    transform: translateX(-50);
+    
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
+
+.about h1,p{
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+.skills h2,.skill-grid{
+
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+
+}
+
+.services h1,.service-cards{
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+
+}
+
+.portfolio h2,.portfolio-container{
+
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+
+}
+
+.certificates h1,.certificate-images{
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+.from-section h2,form{
+  animation: appear ease-in;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
