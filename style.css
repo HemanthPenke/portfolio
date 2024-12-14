@@ -269,7 +269,7 @@ body{
   
   
   /* Media Query for Mobile View */
-  @media (max-width: 840px) {
+  @media (max-width: 1100px) {
     .p-con{
       display: flex;
       flex-direction: column-reverse;
@@ -389,6 +389,8 @@ body{
   .about p{
     margin-left: 30px;
     margin-right: 30px;
+    font-size: 14px;
+    text-align: center;
 
   }
   
@@ -986,6 +988,10 @@ body{
     
   }
 
+  .card>p{
+    font-size: 14px;
+  }
+
 
   .from-section form{
     display: flex;
@@ -1070,9 +1076,11 @@ body{
   }
 
   .service-cards{
-     margin-left: 50px;
-     margin-right: 50px;
+     margin-left: 70px;
+     margin-right: 70px;
   }
+
+  
 
   .footer-components> .need>p{
 
@@ -1088,7 +1096,7 @@ body{
   }
 
   .image-container img{
-    width: 270px;
+    width: 220px;
     height: 270px;
     object-fit: cover;
   }
