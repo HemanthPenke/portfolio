@@ -1076,8 +1076,8 @@ body{
   }
 
   .service-cards{
-     margin-left: 70px;
-     margin-right: 70px;
+     margin-left: 50px;
+     margin-right: 50px;
   }
 
   
@@ -1096,7 +1096,7 @@ body{
   }
 
   .image-container img{
-    width: 220px;
+    width: 270px;
     height: 270px;
     object-fit: cover;
   }
