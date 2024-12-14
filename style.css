@@ -643,9 +643,12 @@ body{
 }
 
 .portfolio-container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(3,1fr);
+  
   gap: 2.5rem;
   margin-left: 100px;
   margin-right: 100px;
