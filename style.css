@@ -32,10 +32,11 @@ body{
 
 }
 
-.nav .logo,.burger,.list>a{
+.nav .logo,.burger{
   animation: updown 1s ease-in-out;
 
 }
+
 
 
 
